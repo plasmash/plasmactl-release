@@ -34,7 +34,7 @@ runtime:
     context: ./
     args:
       GIT_AUTHOR_NAME: ${USER}
-      GIT_AUTHOR_EMAIL: no-reply@skilld.cloud
+      GIT_AUTHOR_EMAIL: noreply@plasma.sh
   command:
     - /bin/bash
     - /action/action.sh
